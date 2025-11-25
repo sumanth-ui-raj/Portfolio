@@ -3,6 +3,7 @@ body{
 }
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
 }
 .info{
     width: 1150px;
@@ -114,4 +115,20 @@ img:hover{
 }
 .abouth{
     font-size: 20px;
+}
+.skills{
+    position: relative;
+    top: 180px;
+    left: 100px;
+    background-color: rgb(0, 0, 0);
+    width: 1100px;
+
+}
+.skil{
+    position: relative;
+    font-size: 20px;
+}
+.soft{
+    word-spacing: 200px;
+    font-size: 17px;
 }
