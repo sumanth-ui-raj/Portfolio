@@ -3,8 +3,6 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    
 
 }
 *{
@@ -12,59 +10,41 @@ body{
     color: white;
 }
 .info{
-    width: 1400px;
+    width: 96%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px white;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transform: scale(1);
+    transition: .5s;
+    padding: 10px;
+    margin: 2%;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
     position: relative;
-    left: 50px;
-    top: 30px;
+    height: 800px;
+}
+.info:hover{
+    width: 96%;
     border-radius: 10px;
     box-shadow: 0px 0px 6px white;
     box-sizing: border-box;
     overflow-x: hidden;
     transform: scale(1);
-    transition: 1s;
+    transition: .5s;
     padding: 10px;
+    margin: 2%;
     backdrop-filter: blur(10px);
-}
-.info:hover{
-    width: 1400px;
-    position: relative;
-    left: 50px;
-    top: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 6px white;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    transform: scale(1.05);
-    transition: 1s;
+    justify-content: center;
+    align-items: center;
 }
 .heading{
     color: white;
 }
 .subheading{
     color: white;
-}
-.img{
-    width: 250px;
-    height: 250px;
-    background-color: white;
-    position: relative;
-    left: 1000px;
-    bottom: 120px;
-    border-radius: 30px;
-    
-    
-}
-img{
-    width: 250px;
-    height: 250px;
-    border-radius: 10px;
-    box-shadow: 2px 3px 6px white;
-    transform: scale(1);
-    transition: .4s;
-}
-img:hover{
-    transform: scale(1.1);
-    transition: .4s;
 }
 .details{
     position: relative;
@@ -74,10 +54,19 @@ img:hover{
 .name{
     font-size: 50px;
     font-weight: bold;
-    display: flex;
     gap: 10px;
     color: white;
-
+    position: relative;
+    left: 27.5%;
+}
+.heading{
+    position: relative;
+    left: 23%;
+}
+.subheading{
+    position: relative;
+    left: 24%;
+    font-size: large;
 }
 .letter{
     display: inline-block;
@@ -90,41 +79,99 @@ img:hover{
     color: #b8b4b4;
 }
 .btn_head{
-    word-spacing: 20px;
+    gap:  20px;
     position: relative;
     top: 40px;
+    margin: 0%;
 }
 .btn_resume{
-    background-color: black;
+    background-color: transparent;
     color: white;
     border-style: none;
     border-radius: 6px;
     font-size: 20px;
     transform: scale(1);
     transition: .4s;
+    position: relative;
+    left: 14%;
+    bottom: -85px;
+    font-size: xx-large;
+    background-color: transparent;
+    backdrop-filter: blur(10);
 }
 .btn_resume:hover{
     cursor: pointer;
-    background-color: white;
-    color: black;
-    border-style: none;
+    background-color: transparent;
+    backdrop-filter: blur(10);
+    color: rgb(255, 255, 255);
+    border-style: solid;
     border-radius: 6px;
     transform: scale(1.2);
     transition: .3s;
 }
 .btn_project{
-    background-color: black;
+    background-color: transparent;
+    border-style: none;
+    border-radius: 6px;
+    font-size: 20px;
+    transform: scale(1);
+    transition: .4s;
+    position: relative;
+    left: 30%;
+    bottom: -85px;
+    font-size: xx-large;
+    backdrop-filter: blur(10);
+}
+.btn_project:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 6px;
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.MY{
+    position: relative;
+    left: 40%;
+    bottom: 50px;
+    font-size: x-large;
+}
+.i{
+    position: relative;
+    left: 39%;
+    bottom: 15px;
+    font-size: xx-large;
+}
+.w{
+    position: relative;
+    left: 30%;
+    bottom: 70px;
+    font-size: x-large;  
+}
+.s{
+        background-color: transparent;
     color: white;
     border-style: none;
     border-radius: 6px;
     font-size: 20px;
+    transform: scale(1);
+    transition: .4s;
+    position: relative;
+    left: 46%;
+    bottom: -85px;
+    font-size: xx-large;
+    background-color: transparent;
+    backdrop-filter: blur(10);
 }
-.btn_project:hover{
+.s:hover{
     cursor: pointer;
-    background-color: white;
-    color: black;
-    border-style: none;
+    background-color: transparent;
+    backdrop-filter: blur(10);
+    color: rgb(255, 255, 255);
+    border-style: solid;
     border-radius: 6px;
     transform: scale(1.2);
-    transition: .3s;
+    transition: .3s;    
 }
