@@ -20,7 +20,7 @@ body{
     transition: .5s;
     padding: 10px;
     margin: 2%;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(3px);
     justify-content: center;
     align-items: center;
     position: relative;
@@ -148,7 +148,7 @@ body{
 }
 .w{
     position: relative;
-    left: 29%;
+    left: 21%;
     bottom: 70px;
     font-size: x-large;  
 }
@@ -203,12 +203,4 @@ body{
     transform: scale(1.15);
     transition: .5s;
     color: #b8b4b4;
-}
-.globe {
-  width: 150px;
-  height: auto;
-  display: block;
-}
-.w{
-    display: flex;
 }
