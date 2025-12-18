@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://i.pinimg.com/1200x/64/6d/1a/646d1a854ef5798608d3d481cb3d5af3.jpg);
+    background-image: url(https://i.pinimg.com/1200x/7d/08/bb/7d08bbd2d6f810cdb6896b247cd009a0.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body{
     transition: .5s;
     padding: 10px;
     margin: 2%;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(1px);
     justify-content: center;
     align-items: center;
     position: relative;

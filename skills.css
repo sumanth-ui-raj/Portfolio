@@ -1,5 +1,27 @@
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
-    background-color: #121212;
+}
+body{
+    background-image: url(https://i.pinimg.com/1200x/52/41/2b/52412b2c6ae21f71a19195bac4a9867c.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hi{
+    position: relative;
+    left: 35%;
+    top: 20%;
+    font-size: xx-large;
+    margin: auto;
+}
+.Under{
+    position: relative;
+    left: 34%;
+    top: 20%;
+    font-size: xx-large;
+    margin: auto;
+    margin-top: 4%;
+    word-spacing: 8px;
 }
