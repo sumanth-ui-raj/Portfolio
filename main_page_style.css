@@ -8,6 +8,7 @@ body{
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
+    text-decoration: none;
 }
 .info{
     width: 96%;
@@ -106,7 +107,7 @@ body{
     background-color: transparent;
     backdrop-filter: blur(10);
     color: rgb(255, 255, 255);
-    border-style: solid;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
     border-radius: 6px;
     transform: scale(1.2);
     transition: .3s;
@@ -128,7 +129,7 @@ body{
     cursor: pointer;
     background-color: transparent;
     color: rgb(255, 255, 255);
-    border-style: solid;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
     border-radius: 6px;
     transform: scale(1.2);
     transition: .3s;
@@ -166,13 +167,14 @@ body{
     font-size: xx-large;
     background-color: transparent;
     backdrop-filter: blur(10);
+    text-decoration: none;
 }
 .s:hover{
     cursor: pointer;
     background-color: transparent;
     backdrop-filter: blur(10);
     color: rgb(255, 255, 255);
-    border-style: solid;
+    box-shadow: 0 0 5px rgb(255, 255, 255);
     border-radius: 6px;
     transform: scale(1.2);
     transition: .3s;    

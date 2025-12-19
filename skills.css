@@ -3,25 +3,203 @@
     color: white;
 }
 body{
-    background-image: url(https://i.pinimg.com/1200x/52/41/2b/52412b2c6ae21f71a19195bac4a9867c.jpg);
-    background-repeat: no-repeat;
+    background-image: url(https://i.pinimg.com/1200x/19/a9/e5/19a9e5c52b3689ed0741300aedc11ec1.jpg);
+ 
     background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: 90% 100%; 
+    background-attachment: scroll;
+    overflow-x: hidden;
+    backdrop-filter: blur(2px);
 }
 .hi{
     position: relative;
-    left: 35%;
+    left: 33%;
     top: 20%;
     font-size: xx-large;
-    margin: auto;
+    margin-top: 2%;
+    width: 500px;
+    height: 70px;
+    padding-top: 2%;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.hi:hover{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 .Under{
     position: relative;
-    left: 34%;
+    left: 33%;
     top: 20%;
     font-size: xx-large;
-    margin: auto;
     margin-top: 4%;
     word-spacing: 8px;
+    transition: all 0.3s ease;
+    padding: .5%;
+    width: 500px;
+    height: 70px;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 40px;
+    transform: scale(1);
+    border-radius: 10px;
+}
+.Under:hover{
+    background-color: transparent;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.tool{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    padding: 2%;
+    top: 105px;
+    left: 10%;
+    border-radius: 10px;
+    background-color: rgba(66, 65, 62, 0.226);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1);
+    transition: all 0.5s ease;
+}  
+.tool:hover{
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    transform: scale(1.08);
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    cursor: pointer;
+}
+.language{
+    position: relative;
+    background-color: transparent;
+    width: 400px;
+    height: 200px;
+    padding: 2%;
+    left: 60%;
+    top: -165px;
+    border-radius: 10px;
+    background-color: rgba(66, 65, 62, 0.226);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+}
+.language:hover{
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    transform: scale(1.08);
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    cursor: pointer;
+}
+.ul1, .ul2, .ul3, .ul4 {
+    list-style-type: none;
+}
+.skills{
+    position: relative;
+    background-color: antiquewhite;
+    width: 400px;
+    height: 200px;
+    padding: 2%;
+    top: -80px;
+    left: 10%;
+    border-radius: 10px;
+    background-color: rgba(66, 65, 62, 0.226);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+}
+.skills:hover{
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    transform: scale(1.08);
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    cursor: pointer;
+}
+.softSkills{
+    position: relative;
+    background-color: antiquewhite;
+    width: 400px;
+    height: 200px;
+    padding: 2%;
+    left: 60%;
+    top: -345px;
+    border-radius: 10px;
+    background-color: rgba(66, 65, 62, 0.226);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+}
+.softSkills:hover{
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    transform: scale(1.08);
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    cursor: pointer;
+}
+
+.i{
+
+    text-align: center;
+    font-size: xx-large;
+    position: relative;
+    bottom: 25px;
+}
+.t{
+    text-align: center;
+    font-size: xx-large;
+    position: relative;
+    bottom: 25px;
+}
+.s{
+    text-align: center;
+    font-size: xx-large;
+    position: relative;
+    bottom: 25px;
+}
+.ss{
+    text-align: center;
+    font-size: xx-large;
+    position: relative;
+    bottom: 25px;
+}
+.ul1, .ul2, .ul3, .ul4{
+    font-size: large;
+    position: relative;
+    text-align: center; 
+}
+.ul1{
+    right: 30px;
+}
+.ul2{
+    right: 30px;
+}
+.ul3{
+    right: 30px;
+}
+.ul4{
+    right: 30px;
+}
+.tl, .lang, .skillname, .Soft{
+    margin: 6px;
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+.tl:hover, .lang:hover, .skillname:hover, .Soft:hover{
+    color: blue;
+    font-weight: bold;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+.all{
+    position: relative;
+    top: 50px;
+}
+.center{
+    text-align: center;
 }
