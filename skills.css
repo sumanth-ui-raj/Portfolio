@@ -203,3 +203,25 @@ body{
 .center{
     text-align: center;
 }
+.ho{
+    position: relative;
+    left: 760px;
+    bottom: 220px;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-size: larger;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.ho:hover{
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
